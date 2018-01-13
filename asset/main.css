@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+}
+
+.main-board {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: url("../img/mainboardb.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.main-board h1 {
+    color: #fff;
+    position: absolute;
+    font-size: 7em;
+    margin: 0;
+    left: 15%;
+    font-weight: 400;
+}
+
+nav {
+    width: 100%;
+    height: 26px;
+    background: rgba(0, 0, 0, 0.92);
+    z-index: 9999;
+    position: fixed;
+    padding: 28px 0;
+    font-size: 23px;
+}
+
+nav .left {
+    float: left;
+    color: #ffffff;
+    margin-left: 15%;
+}
+
+nav .right {
+    float: right;
+    margin-right: 15%;
+}
+
+nav a, nav a:visited {
+    color: #ffffff;
+    margin: 0 15px;
+}
+
+.left a {
+    margin: 0;
+}
+
+.right a:last-child {
+    margin-right: 0;
+}
+
+.content {
+    padding: 80px 15% 100px;
+}
+
+.text-intro {
+    font-size: 1.8em;
+}
+
+.subtitle {
+    margin-top: 80px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.img-ideas {
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+    margin: 0 0 -5px;
+}
+
+.panel {
+    margin-top: 35px;
+}
+
+.panel:hover .img-ideas {
+    opacity: 0.8;
+}
+
+.cutline {
+    width: 100%;
+    height: 100px;
+}
+
+.cutline a {
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 25px 0 0;
+}
+
+.cutline p:first-child {
+    margin-top: 0;
+}
+
+.title-ideas {
+    font-size: 1.5em;
+}
+
+a.black-text, a.black-text:visited {
+    color: #000000;
+}
+
+footer {
+    background: #000000;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+.exp-table, .exp-table tr, .exp-table td, .exp-table th  {
+    border:  1px solid #000000;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.exp-table td, .exp-table th {
+    padding: 5px;
+}
+
+.content.contact {
+    height: calc(100vh - 262px);
+    display: grid;
+}
+
+.form {
+    margin: auto;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+}
+
+.max {
+    width: 100%;
+}
+
+.more-space {
+    margin: 10px 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.button {
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    outline: none;
+}
+
+.button:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.img-board {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.img-gallery {
+    width: 33%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.margintop80 {
+    margin-top: 80px;
+}
