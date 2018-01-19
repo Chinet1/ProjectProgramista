@@ -138,6 +138,7 @@ footer {
 .content.contact {
     height: calc(100vh - 262px);
     display: grid;
+    display: -webkit-grid;
 }
 
 .form {
